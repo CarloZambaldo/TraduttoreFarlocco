@@ -1,0 +1,2 @@
+# TraduttoreFarlocco
+Traduttore italiano -> inglese 
