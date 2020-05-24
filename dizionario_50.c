@@ -113,6 +113,7 @@ void translate(){
         system("PAUSE");
         return;
     }
+    printf("La traduzione e': ");
     // scorro tutto il file e cerco parola per parola
     int i, k=0, trovato;
     for(i=0; (i<len && k<L); i++){
@@ -135,7 +136,7 @@ void translate(){
         
     }
     if(trovato == 0){
-        printf("\nNon e' stata trovata la parola nel dizionario. Aggiungerla selezionando dal menu 2.\n");
+        printf("\nNon e' stata trovata una parola nel dizionario. Aggiungerla selezionando 2 dal menu.\n");
     }
 
     fclose(dizionario);
